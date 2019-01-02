@@ -23,7 +23,7 @@ android {
                 includeCompileClasspath = true
             }
         }
-        buildConfigField("String", "COMICVINE_API_KEY", '"PUT YOUR API KEY HERE"')
+        buildConfigField("String", "COMICVINE_API_KEY", "PUT_YOUR_API_KEY_HERE")
     }
     buildTypes {
         release {
@@ -54,16 +54,16 @@ dependencies {
     // Firebase - Crash Reporting
     implementation 'com.google.firebase:firebase-crash:16.2.1'
     // App dependencies
-    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
-    implementation 'io.reactivex.rxjava2:rxjava:2.1.1'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.2'
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.14'
     implementation 'com.jakewharton.rxrelay2:rxrelay:2.0.0'
-    implementation 'com.google.dagger:dagger:2.11'
-    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
-    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
-    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
-    implementation 'com.squareup.okhttp3:okhttp:3.8.1'
-    implementation 'com.google.code.gson:gson:2.8.1'
-    implementation 'com.jakewharton:butterknife:8.6.0'
+    implementation 'com.google.dagger:dagger:2.15'
+    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.4.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.jakewharton:butterknife:8.8.1'
     implementation 'com.github.bumptech.glide:glide:3.8.0'
     implementation 'com.github.amlcurran.showcaseview:library:5.4.3'
     implementation 'blue.aodev:material-values:1.1.1'
@@ -75,23 +75,23 @@ dependencies {
     implementation 'com.miguelcatalan:materialsearchview:1.4.0'
     implementation 'org.jsoup:jsoup:1.10.3'
     compileOnly 'com.jakewharton.auto.value:auto-value-annotations:1.4'
-    compileOnly 'com.ryanharter.auto.value:auto-value-gson:0.4.6'
-    annotationProcessor "com.google.auto.value:auto-value:1.4"
-    annotationProcessor "com.ryanharter.auto.value:auto-value-gson:0.4.6"
-    annotationProcessor "com.jakewharton:butterknife-compiler:8.6.0"
+    compileOnly 'com.ryanharter.auto.value:auto-value-gson:0.8.0'
+    annotationProcessor "com.google.auto.value:auto-value:1.6"
+    annotationProcessor "com.ryanharter.auto.value:auto-value-gson:0.8.0"
+    annotationProcessor "com.jakewharton:butterknife-compiler:8.8.1"
     annotationProcessor "com.evernote:android-state-processor:1.1.1"
     annotationProcessor "com.hannesdorfmann.fragmentargs:processor:3.0.2"
-    annotationProcessor "com.google.dagger:dagger-compiler:2.11"
-    testAnnotationProcessor "com.google.dagger:dagger-compiler:2.11"
-    androidTestAnnotationProcessor "com.google.dagger:dagger-compiler:2.11"
+    annotationProcessor "com.google.dagger:dagger-compiler:2.15"
+    testAnnotationProcessor "com.google.dagger:dagger-compiler:2.15"
+    androidTestAnnotationProcessor "com.google.dagger:dagger-compiler:2.15"
     // Instrumentation tests dependencies
     androidTestImplementation 'junit:junit:4.12'
     androidTestImplementation 'org.mockito:mockito-core:2.8.47'
     androidTestImplementation 'org.mockito:mockito-android:2.8.47'
-    androidTestImplementation 'com.android.support:support-annotations:25.3.1'
-    androidTestImplementation 'com.android.support.test.espresso:espresso-core:2.2.2'
-    androidTestImplementation 'com.android.support.test:runner:0.4'
-    androidTestImplementation 'com.android.support.test:rules:0.4'
+    androidTestImplementation 'com.android.support:support-annotations:28.0.0'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test:rules:1.0.2'
     // Unit tests dependencies
     testImplementation 'junit:junit:4.12'
     testImplementation 'org.mockito:mockito-core:2.8.47'
