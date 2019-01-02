@@ -21,7 +21,7 @@
 
     <!-- Issues -->
     <string name="issues_title_format">Issues - <xliff:g id="date">%s</xliff:g></string>
-    <string name="issues_search_hint">Enter a title here</string>
+    <string name="issues_search_hint">Enter your search here</string>
 
     <!-- Issue details -->
     <string name="issue_details_activity_title">Issue details:</string>
@@ -62,7 +62,7 @@
     <string name="error_data_not_available">Data not available. Check network connection</string>
     <string name="error_data_not_available_short">Data not available.</string>
     <string name="error_issue_not_available">Issue data is not available.\nCheck internet connection</string>
-    <string name="msg_no_issues_today">No releases found.\nTry again later or choose another date.</string>
+    <string name="msg_no_issues_today">No releases found.\nSwipe down to refresh or choose another date.</string>
     <string name="msg_no_issues_owned">Your collection is empty.\nMark the issues you own to start your collection.</string>
     <string name="msg_no_volumes_found">No volumes found. Try another search.</string>
     <string name="msg_no_volumes_tracked">No volumes found\nMark your favorite volumes to track their releases.</string>
