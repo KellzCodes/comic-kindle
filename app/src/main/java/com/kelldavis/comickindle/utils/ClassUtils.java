@@ -8,22 +8,29 @@ import java.util.List;
 
 public class ClassUtils {
 
-    public static String getMethodsList(Class<?> type) {
+  /**
+   * Returns methods list for AutoValue classes.
+   *
+   * @param type Class type.
+   * @return String which contains comma-separated method names.
+   */
 
-        final String SEPARATOR = ",";
-        final List<Method> methods = Arrays.asList(type.getDeclaredMethods());
-        StringBuilder result = new StringBuilder();
+  public static String getMethodsList(Class<?> type) {
 
-        // Forced methods list sorting
-        Collections.sort(methods, (o1, o2) -> o1.getName().compareToIgnoreCase(o2.getName()));
+    final String SEPARATOR = ",";
+    final List<Method> methods = Arrays.asList(type.getDeclaredMethods());
+    StringBuilder result = new StringBuilder();
 
-        for (Method method : methods) {
-            int modifiers = method.getModifiers();
-            if (Modifier.isAbstract(modifiers)) {
-                result.append(method.getName()).append(SEPARATOR);
-            }
-        }
+    // Forced methods list sorting
+    Collections.sort(methods, (o1, o2) -> o1.getName().compareToIgnoreCase(o2.getName()));
 
-        return result.deleteCharAt(result.length() - 1).toString();
+    for (Method method : methods) {
+      int modifiers = method.getModifiers();
+      if (Modifier.isAbstract(modifiers)) {
+        result.append(method.getName()).append(SEPARATOR);
+      }
     }
+
+    return result.deleteCharAt(result.length() - 1).toString();
+  }
 }

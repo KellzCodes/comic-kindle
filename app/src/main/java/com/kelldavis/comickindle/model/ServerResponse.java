@@ -21,4 +21,3 @@ public abstract class ServerResponse<T> {
         return new AutoValue_ServerResponse.GsonTypeAdapter<>(gson, typeToken);
     }
 }
-
