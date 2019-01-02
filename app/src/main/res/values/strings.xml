@@ -16,7 +16,7 @@
     <string name="navigation_volumes">Volumes</string>
     <string name="navigation_characters">Characters</string>
     <string name="navigation_collection">My Comic Collection</string>
-    <string name="navigation_tracker">New Releases</string>
+    <string name="navigation_tracker">Watch List</string>
     <string name="navigation_settings">Settings</string>
 
     <!-- Issues -->
@@ -56,7 +56,7 @@
     <string name="character_details_gender_unknown">Unknown</string>
 
     <!-- Volumes tracker -->
-    <string name="volumes_tracker_fragment_title">New Releases</string>
+    <string name="volumes_tracker_fragment_title">Watch List</string>
 
     <!-- Errors and info messages -->
     <string name="error_data_not_available">Data not available. Check network connection</string>
