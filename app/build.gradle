@@ -23,7 +23,7 @@ android {
                 includeCompileClasspath = true
             }
         }
-        buildConfigField("String", "COMICVINE_API_KEY", "PUT_YOUR_API_KEY_HERE")
+        buildConfigField("String", "COMICVINE_API_KEY", '"a8d5fe7ce756a2ff22f8b3e152729ba71a11aee9"')
     }
     buildTypes {
         release {
