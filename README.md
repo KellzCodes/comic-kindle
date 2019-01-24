@@ -26,7 +26,7 @@ The entire project can be cloned using this link: https://github.com/keldavis/co
 - Sign up at [Comic Vine](https://comicvine.gamespot.com/) to get an API key
 - [Download or clone](#download) this repository
 - Open app/build.gradle and put your API key in the build config field
-[API Key preview](https://github.com/keldavis/comic-kindle/blob/master/screen%20shots/api_key.PNG)
+![API Key preview](https://github.com/keldavis/comic-kindle/blob/master/screen%20shots/api_key.PNG)
 
 ## Rubric
 
