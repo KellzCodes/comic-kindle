@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "123160164728",
+    "firebase_url": "https://comic-kindle.firebaseio.com",
+    "project_id": "comic-kindle",
+    "storage_bucket": "comic-kindle.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123160164728:android:62f240280cfc76d5",
+        "android_client_info": {
+          "package_name": "com.kelldavis.comickindle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123160164728-qn2fdpn1jdn772f65h1bvo4494mobft6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-dpaFeIVtcwXYBMbDJ6rcx9NVzAhEbDY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
