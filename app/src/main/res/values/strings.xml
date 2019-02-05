@@ -93,7 +93,7 @@
     <string name="prefs_sync_dialog_title">Choose sync period:</string>
     <string name="prefs_sync_once">Once per day</string>
     <string name="prefs_sync_twice">Twice per day</string>
-    <string name="prefs_sync_three_times">Three dimes per day</string>
+    <string name="prefs_sync_three_times">Three times per day</string>
     <string name="prefs_sync_four_times">Four times per day</string>
     <string name="prefs_sync_default">24</string>
     <string name="prefs_file_name" translatable="false">com.kelldavis.comickindle_preferences</string>
