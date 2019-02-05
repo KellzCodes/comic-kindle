@@ -76,13 +76,13 @@
 
     <!-- Widget -->
     <string name="widget_title">Today\'s releases:</string>
-    <string name="widget_empty_text">No available releases found.</string>
+    <string name="widget_empty_text">No available releases.</string>
 
     <!-- ShowcaseView guide -->
     <!-- Issues -->
-    <string name="showcase_issues_title">Issues view</string>
-    <string name="showcase_issues_datepicker">Here, you can choose a date and Comic Kindle will show you the comics released that date.</string>
-    <string name="showcase_issues_search">Use search to find all the issues by title or volume name.</string>
+    <string name="showcase_issues_title">Welcome to Comic Kindle</string>
+    <string name="showcase_issues_datepicker">Click the calendar icon to choose a date and Comic Kindle will show you the comic book issues released on that day.</string>
+    <string name="showcase_issues_search">Here, you can use the search icon to find volumes or characters by name. \nNote: Specific comic issues can only be searched using the calendar</string>
 
     <!-- Notifications -->
     <string name="notification_message_text">New Releases available:</string>
